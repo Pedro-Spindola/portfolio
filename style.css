@@ -244,9 +244,10 @@ section.pag_sobremim
 {
     margin-top: 10px;
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 100;
-    color: white
+    color: white;
+    line-height: 22px;
 }
 section.habilidade
 {
@@ -383,9 +384,9 @@ section.pag_projetos
 {
     display: flex;
     background: #8d8d8d10;
-    margin: auto;
+    margin: 0px;
     align-items: center;
-    width: 100%;
+    width: 300px;
     height: 40px;
     cursor: pointer;
     border: 2px solid #8d8d8d10;
@@ -395,9 +396,10 @@ section.pag_projetos
 {
     margin-left: 20px;
     margin-right: 20px;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background: transparent;
+    opacity: 0.7;
 }
 .buttonv a
 {
@@ -408,6 +410,7 @@ section.pag_projetos
     font-size: 20px;
     font-weight: bold;
     background-color: transparent;
+    color: #005f9b;
 }
 footer.endend
 {
