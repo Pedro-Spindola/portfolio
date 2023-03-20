@@ -22,6 +22,7 @@ var VanillaTilt = (function () {
         this.top = null;
     
         // for Gyroscope sampling
+        
         this.gammazero = null;
         this.betazero = null;
         this.lastgammazero = null;
